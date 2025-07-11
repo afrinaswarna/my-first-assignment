@@ -178,6 +178,7 @@ main{
 /* information section related styles */
 .information-section{
     display: flex;
+    align-items: center;
     gap: 150px;
     height: 630px;
 }
@@ -186,6 +187,27 @@ main{
     font-weight: bold;
     font-size: 97px;
 }
-.information-section-form{
-    width: 500px;
+
+.form-section{
+width: 500px;
+gap: 20px;
+
+}
+.form-section input{
+    padding: 20px 270px 20px 30px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    margin-bottom: 20px;
+
+}
+.form-section textarea{
+    border-radius:10px ;
+    border: 1px solid #D6DDED;
+    margin-bottom: 20px;
+    
+   
+   
+}
+.form-section button{
+    width: 470px;
 }
