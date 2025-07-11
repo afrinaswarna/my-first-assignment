@@ -30,7 +30,7 @@ main{
     
 }
 .btn-primary:hover{
-    background-color: chartreuse;
+    background-color: deepskyblue;
     cursor: pointer;
     color: black;
 }
@@ -46,9 +46,12 @@ main{
     font-weight: 800;
     font-size: 34px;
 }
+.span{
+    color:deepskyblue;
+}
 .banner{
     background-image: url('../Assets/Hero-bg.png');
-    height: 690px;
+    height: 600px;
     margin-bottom: 100px;
     padding: 50px 150px 150px 150px ;
 
@@ -72,7 +75,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 115px;
+    margin-bottom: 100px;
 }
 .action-content-title{
     font-weight: bold;
@@ -97,7 +100,7 @@ main{
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 20px;
     margin-bottom: 140px;
-    padding: 50px 140px 50px 140px;
+    padding: 50px 120px 50px 120px;
 }
 .user-section-title{
     color: #252432;
@@ -113,9 +116,10 @@ main{
 .user-amount{
     color: #4E47FF;
     font-weight: bold;
-    font-size: 80px;
-    margin-top: 40px;
-    margin-bottom: 24px;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
 }
 .user-criteria{
     color: rgba(0, 0, 0, 0.5);
@@ -124,8 +128,7 @@ main{
 }
 /* review section related styles */
 .review-section{
-    
-    margin-bottom: 140px;
+    margin-bottom: 100px;
 }
 .review-section-title{
     text-align: center;
@@ -134,7 +137,7 @@ main{
 }
 .review-container{
     display: flex;
-    justify-content: space-evenly;
+    gap: 20px;
     
     
 }
@@ -144,13 +147,15 @@ main{
     border-radius: 14px;
     border:1px solid rgba(242, 237, 237, 1);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    height: 240px;
 }
 .review-content-title{
     font-size: 24px;
     font-weight: 700;
 }
 .review-content-description{
-   width: 318px ;
+   
    margin-top: 8px;
    margin-bottom: 24px;
 }
@@ -179,19 +184,14 @@ main{
 .information-section{
     display: flex;
     align-items: center;
-    gap: 150px;
-    height: 630px;
+    gap: 80px;
+    margin-bottom: 100px;
+   
 }
 .information-section-title{
-    width: 530px;
+    
     font-weight: bold;
-    font-size: 97px;
-}
-
-.form-section{
-width: 500px;
-gap: 20px;
-
+    font-size: 80px;
 }
 .form-section input{
     padding: 20px 270px 20px 30px;
@@ -204,9 +204,6 @@ gap: 20px;
     border-radius:10px ;
     border: 1px solid #D6DDED;
     margin-bottom: 20px;
-    
-   
-   
 }
 .form-section button{
     width: 470px;
@@ -218,17 +215,18 @@ gap: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 450px;
+    height: 500px;
     
 }
 .footer-title{
     color:#4E47FF;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 55px;
 
 }
 .footer-description{
-
+    width: 532px;
+height: 50px;
 text-align: center;
 color: #8987A1;
 margin-top: 10px;
