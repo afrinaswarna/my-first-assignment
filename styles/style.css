@@ -73,7 +73,7 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 120px;
     margin-bottom: 100px;
 }
 .action-content-title{
@@ -190,6 +190,9 @@ main{
     
     font-weight: bold;
     font-size: 80px;
+}
+.form-section label{
+font-weight: 500;
 }
 .form-section input{
     padding: 20px 270px 20px 30px;
